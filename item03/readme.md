@@ -172,7 +172,7 @@ class Person {
   ...
  private:
   string name;
-  int called_times; // 用于统计getName()函数的被调用次数
+  mutable int called_times; // 用于统计getName()函数的被调用次数
 }
 ```
 
