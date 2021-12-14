@@ -1,4 +1,4 @@
-# 条款02 尽量以const, enum, inline替换#define
+# 条款02: 尽量以const, enum, inline替换#define
 
 > 这个条款其实是在说: 尽量使用编译器而非预处理器.
 
